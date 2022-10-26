@@ -29,8 +29,8 @@ public class Task {
     @Column(name="title",length=255,nullable=false)
     private String title;
 
-    @Column(name="task",length=255,nullable=false)
-    private String task;
+    @Column(name="content",length=255,nullable=false)
+    private String content;
 
     @Column(name="created_at",nullable=false)
     private Timestamp created_at;
@@ -55,12 +55,12 @@ public class Task {
         this.title = title;
     }
 
-    public String getTask() {
-        return task;
+    public String getContent() {
+        return content;
     }
 
-    public void setTask(String task) {
-        this.task = task;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public Timestamp getCreated_at() {
