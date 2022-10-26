@@ -4,7 +4,7 @@
 <br/><br/>
 
 <label for="content_tsk">タスク内容</label>
-<input type="text" name="content" id="content_tsk" value="${task.content}">
+<input type="text" name="task" id="content_tsk" value="${task.task}">
 <br/><br/>
 
 <input type="hidden" name="_token" value="${_token}" />

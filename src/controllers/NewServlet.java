@@ -37,18 +37,4 @@ public class NewServlet extends HttpServlet {
         RequestDispatcher rd=request.getRequestDispatcher("/WEB-INF/views/tasks/new.jsp");
         rd.forward(request, response);
     }
-    /*Task t=new Task();
-
-    int id=??;
-    t.setId(id);
-
-    String title=??;
-    t.setTitle(title);
-
-    String task=??;
-    t.setTask(task);
-
-    Timestamp currentTime=new Timestamp(System.currentTimeMillis());
-    t.setCreated_at(currentTime);
-    t.setUpdated_at(currentTime);*/
 }
